@@ -27,6 +27,35 @@
 	  padding: 40px;
   }
 
+  .banner {
+	width: 100%;
+	position: relative;
+	
+		color: white;
+		padding: 20px;
+		margin: 20px;
+		width: 70%;
+		height: 50%;
+		
+	
+		
+	
+  }
+  .text-block{
+	
+	
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 100px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		color: black;
+	
+}
+	
+
+
   .overlay {
 	width:300px;
 	height:100px;
@@ -112,6 +141,11 @@
 	display: none;
 	color: black;
   }
+  .content4 {
+	font-size: 30px;
+	display: none;
+	color: black;
+  }
   
   .vid {
   padding: 50px;
@@ -155,20 +189,7 @@ right: 700px;
 	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
 
-  .banner {
-	  font-size: 100px;
-	  color: white;
-	  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	  text-align: center;
-	  background-color: rgb(167, 136, 240);
-	  position:relative;
-	  padding: 20px;
-	  margin: 20px;
-	  width: 70%;
-	  
-	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	  
-  }
+  
 
   .LB {
 	font-size: 80px;

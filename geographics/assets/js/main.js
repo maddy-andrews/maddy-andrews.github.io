@@ -27,6 +27,14 @@ $(document).ready(function () {
     });
   });
 
+  $(document).ready(function () {
+    console.log("Hello world");
+  
+    $(".banner").click(function () {
+      $(this).find(".content4").slideToggle("fast");
+    });
+  });
+
   (function () {
     var inner = ('#inner');
     inner.on('click', function (e) {
