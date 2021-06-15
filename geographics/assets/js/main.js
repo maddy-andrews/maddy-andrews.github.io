@@ -19,6 +19,8 @@ $(document).ready(function () {
       $(this).find(".vid").slideToggle("fast");
     });
   });
+
+
   $(document).ready(function () {
     console.log("Hello world");
   
@@ -26,6 +28,7 @@ $(document).ready(function () {
       $(this).find(".content3").slideToggle("fast");
     });
   });
+
 
   
 
