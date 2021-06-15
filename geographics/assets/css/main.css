@@ -314,6 +314,12 @@ mix-blend-mode: exclusion;
  
   }
 
+.life{
+	bottom: 10px;
+	font-size: 90px;
+	right: 10px;
+	color: gray;
+}
   
 
   @keyframes move {
